@@ -1,43 +1,137 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
-  <title>Ship It — the last-mile launch crew</title>
-  <desc>A quick teal courier bird carries a coded parcel into its final delivery, with the checked seal forming a small checkmark.</desc>
+  <title>The Last-Mile Launch Crew — Holographic Cloud Bird</title>
+  <desc>A teal courier swift with a pirate tricorn carries a parcel of code through iridescent mist.</desc>
   <defs>
-    <path id="sticker" d="M512 38c77 0 128 43 191 66 65 24 162 23 197 82 35 60 8 143 20 216 12 72 52 139 34 210-18 73-91 113-144 169-56 59-103 128-204 156-32 9-63 13-94 13s-62-4-94-13c-101-28-148-97-204-156-53-56-126-96-144-169-18-71 22-138 34-210 12-73-15-156 20-216 35-59 132-58 197-82 63-23 114-66 191-66z"/>
+    <path id="badge" d="M512 38c77 0 128 43 191 66 65 24 162 23 197 82 35 60 8 143 20 216 12 72 52 139 34 210-18 73-91 113-144 169-56 59-103 128-204 156-32 9-63 13-94 13s-62-4-94-13c-101-28-148-97-204-156-53-56-126-96-144-169-18-71 22-138 34-210 12-73-15-156 20-216 35-59 132-58 197-82 63-23 114-66 191-66z"/>
+    <linearGradient id="bodyPrism" gradientUnits="userSpaceOnUse" x1="285" y1="410" x2="738" y2="557">
+      <stop offset="0" stop-color="#65F4FF" stop-opacity=".94"/>
+      <stop offset=".28" stop-color="#34DCCD" stop-opacity=".88"/>
+      <stop offset=".56" stop-color="#806BFA" stop-opacity=".9"/>
+      <stop offset=".78" stop-color="#EA6BD2" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#57EBF4" stop-opacity=".95"/>
+    </linearGradient>
+    <linearGradient id="wingPrism" gradientUnits="userSpaceOnUse" x1="336" y1="488" x2="565" y2="378">
+      <stop offset="0" stop-color="#44ECED"/>
+      <stop offset=".38" stop-color="#8467F7"/>
+      <stop offset=".72" stop-color="#F365C9"/>
+      <stop offset="1" stop-color="#87F8EE"/>
+    </linearGradient>
+    <linearGradient id="tailPrism" gradientUnits="userSpaceOnUse" x1="184" y1="455" x2="342" y2="542">
+      <stop offset="0" stop-color="#54EDFA" stop-opacity=".4"/>
+      <stop offset=".45" stop-color="#9A68FF" stop-opacity=".82"/>
+      <stop offset="1" stop-color="#F46BCF" stop-opacity=".9"/>
+    </linearGradient>
+    <linearGradient id="hatPrism" gradientUnits="userSpaceOnUse" x1="595" y1="282" x2="782" y2="384">
+      <stop offset="0" stop-color="#172842"/>
+      <stop offset=".36" stop-color="#564381"/>
+      <stop offset=".65" stop-color="#293968"/>
+      <stop offset="1" stop-color="#14263C"/>
+    </linearGradient>
+    <linearGradient id="hatSheen" gradientUnits="userSpaceOnUse" x1="605" y1="300" x2="757" y2="352">
+      <stop offset="0" stop-color="#65F4FF" stop-opacity=".12"/>
+      <stop offset=".5" stop-color="#C38BFF" stop-opacity=".88"/>
+      <stop offset="1" stop-color="#F27CD2" stop-opacity=".12"/>
+    </linearGradient>
+    <linearGradient id="mist" gradientUnits="userSpaceOnUse" x1="199" y1="459" x2="433" y2="579">
+      <stop offset="0" stop-color="#59EFFF" stop-opacity=".04"/>
+      <stop offset=".4" stop-color="#68DFF7" stop-opacity=".36"/>
+      <stop offset=".72" stop-color="#B57CFF" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#F078D1" stop-opacity=".02"/>
+    </linearGradient>
+    <radialGradient id="mistGlow" gradientUnits="userSpaceOnUse" cx="310" cy="508" r="138">
+      <stop offset="0" stop-color="#64F5FF" stop-opacity=".24"/>
+      <stop offset=".58" stop-color="#8D75FF" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#E96FD8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="mistLower" gradientUnits="userSpaceOnUse" cx="306" cy="588" r="112">
+      <stop offset="0" stop-color="#7EF5FF" stop-opacity=".32"/>
+      <stop offset=".55" stop-color="#79DDF4" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#D977E5" stop-opacity="0"/>
+    </radialGradient>
   </defs>
-  <use href="#sticker" fill="#182431" stroke="#182431" stroke-width="96" stroke-linejoin="round"/>
-  <use href="#sticker" fill="#182431" stroke="#FFF5DF" stroke-width="65" stroke-linejoin="round"/>
-  <use href="#sticker" fill="#182431"/>
 
-  <g transform="rotate(-4 512 520)">
-    <text x="512" y="206" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="110" font-weight="900" letter-spacing="-5" fill="#FFF5DF">SHIP IT</text>
-    <path d="M306 244h412" fill="none" stroke="#EF6547" stroke-width="15" stroke-linecap="round"/>
+  <use href="#badge" fill="#162439" stroke="#101927" stroke-width="96" stroke-linejoin="round"/>
+  <use href="#badge" fill="#162439" stroke="#FFF5DF" stroke-width="65" stroke-linejoin="round"/>
+  <use href="#badge" fill="#162439"/>
 
-    <!-- Three compact air trails anchor the direction of travel. -->
-    <path d="M222 493h151M187 542h151M239 591h110" fill="none" stroke="#FFF5DF" stroke-width="17" stroke-linecap="round" opacity=".9"/>
-    <path d="M247 452h83" fill="none" stroke="#F3B84B" stroke-width="12" stroke-linecap="round"/>
+  <text x="581" y="196" text-anchor="end" font-family="DejaVu Sans, sans-serif" font-size="106" font-weight="900" letter-spacing="-5" fill="#FFF5DF">SHIP</text>
+  <text x="599" y="196" text-anchor="start" font-family="DejaVu Sans, sans-serif" font-size="106" font-weight="900" letter-spacing="-5" fill="#72E6F4">IT</text>
+  <path d="M323 231h378" fill="none" stroke="#E975D4" stroke-width="13" stroke-linecap="round"/>
 
-    <!-- A fast courier bird: hooked beak, swept wing and a little postie cap. -->
-    <path d="M326 474c32-76 101-132 190-144 78-11 137 15 190 72l76 13-61 43c-11 79-62 140-145 164-64 19-137 6-190-39l-83 12 43-62c-27-16-39-34-20-59z" fill="#EF6547" stroke="#182431" stroke-width="30" stroke-linejoin="round"/>
-    <path d="M485 337c82-9 146 24 181 82-85-14-145 2-199 43 1-45 6-86 18-125z" fill="#159B91" stroke="#182431" stroke-width="23" stroke-linejoin="round"/>
-    <path d="M622 390c-23-51-70-89-131-103l37-50 106 27 55 68z" fill="#F3B84B" stroke="#182431" stroke-width="24" stroke-linejoin="round"/>
-    <path d="M691 330l65 14-57 31" fill="#FFF5DF" stroke="#182431" stroke-width="17" stroke-linejoin="round"/>
-    <ellipse cx="676" cy="414" rx="46" ry="38" fill="#FFF5DF" stroke="#182431" stroke-width="15"/>
-    <circle cx="689" cy="408" r="10" fill="#182431"/>
-    <circle cx="692" cy="405" r="3" fill="#FFF5DF"/>
-    <path d="M661 432q12 9 24 2" fill="none" stroke="#EF6547" stroke-width="7" stroke-linecap="round"/>
-    <path d="M741 402l91-7-66 51" fill="#F3B84B" stroke="#182431" stroke-width="19" stroke-linejoin="round"/>
-    <path d="M628 469c-32 41-71 66-121 78" fill="none" stroke="#FFF5DF" stroke-width="13" stroke-linecap="round"/>
-    <path d="M500 564q44 20 83 5" fill="none" stroke="#182431" stroke-width="11" stroke-linecap="round"/>
-    <path d="M525 583l-21 36m70-42 13 43" fill="none" stroke="#182431" stroke-width="17" stroke-linecap="round"/>
+  <!-- Mist remains behind the courier, feathering the tail without covering its face. -->
+  <path d="M190 522c-12-24 5-52 32-55-1-29 31-47 56-33 18-28 59-21 67 10 29-1 48 27 35 51 26 15 25 47-2 59-19 20-49 19-64 1-25 20-60 9-65-15-26 10-55 4-59-18z" fill="url(#mist)"/>
+  <path d="M181 493c50-39 115-36 155-5 30 23 55 24 89 8" fill="none" stroke="url(#mist)" stroke-width="26" stroke-linecap="round"/>
+  <path d="M219 585c-5-20 14-36 34-31 10-24 41-24 52 0 25-5 41 15 31 35 16 12 9 34-10 39-18 7-35 0-39-15-17 12-39 4-41-12-16 8-32 0-27-16z" fill="url(#mistLower)"/>
+  <path d="M234 589c5-10 15-15 26-14m21-7c9-9 21-9 29 0m-48 39c10 7 21 7 29 1" fill="none" stroke="#BFFAFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M205 552c20-15 42-20 62-16" fill="none" stroke="#82EAF5" stroke-width="7" stroke-linecap="round"/>
 
-    <!-- The parcel is the second bold shape; its seal doubles as the check. -->
-    <path d="M442 603l139-21 88 57-17 142-143 20-84-62z" fill="#159B91" stroke="#182431" stroke-width="28" stroke-linejoin="round"/>
-    <path d="M442 603l92 58 118-22m-118 22-25 140" fill="none" stroke="#FFF5DF" stroke-width="14" stroke-linejoin="round"/>
-    <path d="M548 628l47-7 31 21-42 8z" fill="#F3B84B"/>
-    <path d="M552 649l19 18 34-39" fill="none" stroke="#182431" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="600" y="719" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="42" font-weight="700" fill="#FFF5DF">&lt;/&gt;</text>
-  </g>
+  <!-- Parcel keeps the code payload and completion mark crisp and opaque. -->
+  <path d="M432 601l104-53 164 37-12 146-104 51-146-47z" fill="#F6B9EF" stroke="#101927" stroke-width="27" stroke-linejoin="round"/>
+  <path d="M432 601l152 40 116-56m-116 56v141" fill="none" stroke="#FFF5DF" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M435 604l146 39v139l-143-46z" fill="#D87BEA"/>
+  <path d="M585 644l112-58-11 143-101 50z" fill="#53D8D7"/>
+  <text x="507" y="713" text-anchor="middle" font-family="DejaVu Sans Mono, monospace" font-size="40" font-weight="700" fill="#17263B">&lt;/&gt;</text>
+  <path d="M611 684l15 15 31-39" fill="none" stroke="#FFF5DF" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M465 620l89 24v14l-87-24z" fill="#F5A9E7"/>
+  <path d="M605 652l75-39-1 15-73 39z" fill="#8AF1EC"/>
+  <path d="M470 744l67 21" fill="none" stroke="#F5A9E7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M601 748l70-35" fill="none" stroke="#9AF4F2" stroke-width="5" stroke-linecap="round"/>
 
-  <text x="512" y="875" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="77" font-weight="800" letter-spacing="-3" fill="#FFF5DF">make.fun</text>
-  <circle cx="512" cy="915" r="8" fill="#F3B84B"/>
+  <!-- Holographic vapor and refracted tail light. -->
+  <path d="M331 487c-53-50-97-64-143-48 30 23 50 51 61 88 30-20 55-25 86-17z" fill="url(#tailPrism)" stroke="#101927" stroke-width="18" stroke-linejoin="round"/>
+  <path d="M178 477h101M153 522h123M198 566h93" fill="none" stroke="#D8F8FF" stroke-width="16" stroke-linecap="round"/>
+  <path d="M164 603c82-4 122-24 177-17" fill="none" stroke="#77E9F7" stroke-width="10" stroke-linecap="round" opacity=".7"/>
+
+  <!-- The same swift profile and flying pose, now with translucent iridescent plumage. -->
+  <path d="M282 497c30-76 116-131 216-137 43-50 111-68 164-35 41 25 60 63 58 104l82 1-60 43c-12 47-48 79-101 90-44 9-85-2-119-25-58 42-129 54-194 34l-75 38 39-71c-22-7-31-22-10-42z" fill="url(#bodyPrism)" stroke="#101927" stroke-width="29" stroke-linejoin="round"/>
+  <path d="M338 471c50-75 122-106 219-102-57 31-103 76-136 135-30-5-58-15-83-33z" fill="url(#wingPrism)" stroke="#101927" stroke-width="17" stroke-linejoin="round"/>
+  <path d="M425 467c31-35 66-61 107-78" fill="none" stroke="#E8FEFF" stroke-width="11" stroke-linecap="round" opacity=".88"/>
+  <path d="M370 486c28 19 54 30 82 34m-90-14c24 17 42 23 63 27" fill="none" stroke="#F3B6F1" stroke-width="7" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Three feather cuts turn the broad wing gradient into layered plumage. -->
+  <path d="M369 454c29-31 63-52 103-65" fill="none" stroke="#B6FCFF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M389 463c28-27 58-44 91-55" fill="none" stroke="#72E8E8" stroke-width="6" stroke-linecap="round"/>
+  <path d="M408 474c25-22 49-36 75-44" fill="none" stroke="#F9B8EC" stroke-width="6" stroke-linecap="round"/>
+  <path d="M430 482c18-15 36-26 55-32" fill="none" stroke="#E3D5FF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Short prism glints follow the body curve and keep the bird's volume legible. -->
+  <path d="M410 505c31 12 61 13 91 5" fill="none" stroke="#B9FBFF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M445 521c25 8 49 8 73 2" fill="none" stroke="#F6BAEA" stroke-width="6" stroke-linecap="round"/>
+  <path d="M484 535c18 4 34 4 51 0" fill="none" stroke="#A8F5F2" stroke-width="5" stroke-linecap="round"/>
+  <path d="M530 386c25-17 51-25 77-22" fill="none" stroke="#D9F9FF" stroke-width="7" stroke-linecap="round"/>
+  <path d="M548 400c22-12 42-18 62-16" fill="none" stroke="#F5B3EA" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Iconic three-point pirate tricorn, with a bold skull-and-crossbones mark. -->
+  <path d="M598 370c12-27 11-49 2-73 25 18 45 27 62 18 17-9 23-27 19-50 28 20 44 43 49 68 15 1 29-9 44-29-4 29 0 51 13 72-35-13-63-13-91-3-37 13-67 16-98-3z" fill="url(#hatPrism)" stroke="#101927" stroke-width="19" stroke-linejoin="round"/>
+  <path d="M604 365c42 17 81 4 115-9 25-10 44-9 65 1-32-4-49 12-78 20-39 12-70 12-102-1z" fill="url(#hatSheen)"/>
+  <path d="M615 351c31 11 58 9 85 1" fill="none" stroke="#B8FBFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M716 344c17-4 31-2 45 4" fill="none" stroke="#F4B5EA" stroke-width="5" stroke-linecap="round"/>
+  <path d="M644 313l52 46m-52 0 52-46" fill="none" stroke="#8EF5F6" stroke-width="7" stroke-linecap="round" opacity=".9"/>
+  <path d="M672 321c9-8 20-2 20 7l-2 17-11 8-11-8-2-17c0-4 2-6 6-7z" fill="#FFF5DF" stroke="#101927" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="674" cy="336" r="3.5" fill="#182431"/>
+  <circle cx="686" cy="336" r="3.5" fill="#182431"/>
+  <path d="M680 341l-3 5h6z" fill="#182431"/>
+  <path d="M675 351l5 3 5-3" fill="none" stroke="#182431" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Clear cream face and golden beak keep the mascot readable through the glow. -->
+  <ellipse cx="670" cy="427" rx="42" ry="35" fill="#FFF5DF" stroke="#101927" stroke-width="14"/>
+  <circle cx="683" cy="419" r="10" fill="#182431"/>
+  <circle cx="686" cy="416" r="3" fill="#FFF5DF"/>
+  <path d="M665 444q12 9 24 1" fill="none" stroke="#EE77D7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M641 431c4-8 10-12 17-13" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M708 417l87 11-73 38z" fill="#FFC857" stroke="#101927" stroke-width="17" stroke-linejoin="round"/>
+  <path d="M731 432l39 2-31 19z" fill="#FFE39B"/>
+
+  <!-- Feet anchor the parcel; restrained particles add a hologram sparkle. -->
+  <path d="M525 522l15 58m73-51 17 48" fill="none" stroke="#182A42" stroke-width="17" stroke-linecap="round"/>
+  <path d="M540 579l-17 11m17-11 13 12m75-16-15 12m15-12 14 11" fill="none" stroke="#182A42" stroke-width="11" stroke-linecap="round"/>
+  <circle cx="296" cy="423" r="7" fill="#75F3FF"/>
+  <circle cx="352" cy="573" r="6" fill="#E97CE2"/>
+  <circle cx="420" cy="338" r="5" fill="#B8A4FF"/>
+  <circle cx="761" cy="493" r="6" fill="#72EDF2"/>
+  <path d="M247 397l5 13 13 5-13 5-5 13-5-13-13-5 13-5z" fill="#B7F9FF"/>
+  <path d="M794 539l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#F49BE7"/>
+
+  <text x="512" y="872" text-anchor="middle" font-family="DejaVu Sans, sans-serif" font-size="75" font-weight="800" letter-spacing="-3" fill="#FFF5DF">make.fun</text>
+  <circle cx="512" cy="913" r="8" fill="#72E6F4"/>
 </svg>
